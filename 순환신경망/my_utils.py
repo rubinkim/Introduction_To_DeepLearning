@@ -18,3 +18,4 @@ def svd(M):
     
     # Rounding for display
     return np.round(U, PRECISION), np.round(S, PRECISION), np.round(Vt.T, PRECISION)
+
